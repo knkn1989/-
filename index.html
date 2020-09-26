@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- リセット -->
+  <link rel="stylesheet" href="http://unpkg.com/ress/dist/ress.min.css">
+  <!-- googleフォント -->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <!-- css hoverシート -->
+  <link rel="stylesheet" href="css/imagehover.css">
+  <!-- cssシート -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Kenta's Portfolio</title>
+</head>
+
+<body id="body">
+  <div class="container">
+    <div class="inner">
+      <section id="header">
+        <div class="logo"><a href="#">Kenta's Portfolio</a></div>
+        <div class="top_nav">
+          <a href="#about" class="top_nav_a">About</a>
+          <a href="#service" class="top_nav_a">Service</a>
+          <a href="#works" class="top_nav_a">Works</a>
+          <a href="#contact" class="top_nav_a">Contact</a>
+        </div>
+      </section> <!-- header -->
+      <div id="humberger">
+        <div class="fix">
+          <div class="fix_btn" id="fix_btn">
+            <span class="fix_btn_line fix_btn_line1"></span>
+            <span class="fix_btn_line fix_btn_line2"></span>
+            <span class="fix_btn_line fix_btn_line3"></span>
+          </div>
+        </div>
+        <div class="hidden" id="hidden">
+          <div class="hidden_content">
+            <ul id="btn">
+              <li><a href="#" class="top_nav_a_hidden">Top</a></li>
+              <li><a href="#about" class="top_nav_a_hidden">About</a></li>
+              <li><a href="#service" class="top_nav_a_hidden">Service</a></li>
+              <li><a href="#works" class="top_nav_a_hidden">Works</a></li>
+              <li><a href="#contact" class="top_nav_a_hidden">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- ハンバーガー -->
+      <section id="top_image">
+      </section>
+      <!--top_image-->
+      <section id="about">
+        <h2>About</h2>
+        <div class="about_inner">
+          <div class="about_image">
+            <img src="images/IMG_6157.jpg" alt="" class="about_image_item">
+          </div>
+          <div class="about_item">
+            <p class="about_p">
+              はじめまして！中島健太と申します。<br>
+              アクセスいただき有難うございます。<br>
+              茨城県を拠点にWeb制作のフリーランスとして活動しております。<br>
+              下記に可能な業務を記載しておりますのでご覧いただけますと幸いです。<br><br>
+
+              迅速丁寧なコミュニケーションを心がけております。<br>
+              ご満足いただけるよう最善を尽くし、ご要望にお答えいたします。<br>
+              ご縁を頂けるようでしたら、是非contactからご連絡お願い致します。
+            </p><br>
+            <p class="about_p">
+              【対応可能な業務内容】<br>
+              　　HTML/CSS/Javascriptを使用したコーディング<br>
+              　　WordPressの導入、サイト構築、改修
+            </p>
+          </div> <!-- about_item -->
+        </div> <!-- about_inner -->
+      </section> <!-- about -->
+      <section id="service">
+        <h2>Service</h2>
+        <div class="service_item">
+          <div class="service_box effect1">
+            <i class="fas fa-laptop-code"></i>
+            <h3 class="service_head">Webサイト作成</h3>
+            <p>お預かりしたデザイン画を元にHTML、CSSを用いてWebページを作成いたします。メンテナンスしやすいサイト設計を目指します。</p>
+            <p> WordPressの導入、サイト構築、改修も可能です</p>
+          </div>
+          <div class="service_box effect2">
+            <i class="fas fa-mobile-alt"></i>
+            <h3 class="service_head">レスポンシブ対応</h3>
+            <p>現代は様々なサイズのデバイスが存在しております。あらゆる場面サイズに対応し、ユーザーが見やすく、正しく情報が訴求できるよう調整いたします。</p>
+          </div>
+          <div class="service_box effect3">
+            <i class="fas fa-file-medical"></i>
+            <h3 class="service_head">MAINTENANCE</h3>
+            <p>納品させていただいたサイトの保守・修正に対応させていただきます。また、すでに運営されているサイトの更新なども承ります。</p>
+          </div>
+        </div>
+      </section> <!-- service -->
+      <section id="works">
+        <h2>Works</h2>
+        <div class="works_box works_effect1">
+          <figure class="imghvr-push-up works_box_item">
+            <img src="images/copy1_thumbnail.png" alt="模写ページ1" class="works_link">
+            <figcaption>
+              <p class="works_box_item_head">template-party様　模写</p>
+              <p>【使用技術】HTML/CSS</p>
+              <p>【特徴】シンプルなサイト</p>
+            </figcaption>
+            <a href="images/copy1.jpg"></a>
+          </figure>
+          <figure class="imghvr-push-up works_box_item">
+            <img src="images/copy2_thumbnail.png" alt="模写ページ2" class="works_link">
+            <figcaption>
+              <p class="works_box_item_head">template-party様　模写</p>
+              <p>【使用技術】HTML/CSS</p>
+              <p>【特徴】シンプルなコーポレートサイト</p>
+            </figcaption>
+            <a href="images/copy2.jpg"></a>
+          </figure>
+          <figure class="imghvr-push-up works_box_item">
+            <img src="images/copy3_thumbnail.png" alt="模写ページ3" class="works_link">
+            <figcaption>
+              <p class="works_box_item_head">airbnb様　模写</p>
+              <p>【使用技術】HTML/CSS</p>
+              <p>【特徴】シンプルなLP</p>
+            </figcaption>
+            <a href="images/copy3.jpg"></a>
+          </figure>
+          <figure class="imghvr-push-up works_box_item">
+            <img src="images/copy4_thumbnail.png" alt="模写ページ4" class="works_link">
+            <figcaption>
+              <p class="works_box_item_head">airbnb様　模写</p>
+              <p>【使用技術】HTML/CSS</p>
+              <p>【特徴】シンプルなLP+動画付き</p>
+            </figcaption>
+            <a href="images/copy4.jpg"></a>
+          </figure>
+          <figure class="imghvr-push-up works_box_item">
+            <img src="images/copy5_thumbnail.png" alt="模写ページ5" class="works_link">
+            <figcaption>
+              <p class="works_box_item_head">Frog School様　模写</p>
+              <p>【使用技術】HTML/CSS</p>
+              <p>【特徴】シンプルなLP+動画付き+フォーム付き</p>
+            </figcaption>
+            <a href="images/copy5.jpg"></a>
+          </figure>
+          <figure class="imghvr-push-up works_box_item">
+            <img src="images/copy6_thumbnail.jpg" alt="模写ページ6" class="works_link">
+            <figcaption>
+              <p class="works_box_item_head">Mono Tone Practice様　模写</p>
+              <p>【使用技術】HTML/CSS WordPress</p>
+              <p>【特徴】WordPressによる構築</p>
+            </figcaption>
+            <a href="images/copy6.jpg"></a>
+          </figure>
+        </div>
+      </section> <!-- works -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <script src="https://sdk.form.run/js/v2/embed.js"></script>
+        <div class="formrun-embed" data-formrun-form="@kenta-nakajima--1596118572" data-formrun-redirect="true">
+        </div>
+      </section> <!-- contact -->
+      <section id="footer">
+        <p><small>&copy; kenta nakajima</small></p>
+      </section> <!-- footer -->
+    </div><!--inner-->
+    <div id="page-top" class="blogicon-chevron-up"><i class="fas fa-angle-double-up page-top"></i></div>
+  </div>
+  <!--container-->
+  <!-- JS読み込み -->
+  <script type="text/javascript" src="css/javascript.js"></script>
+</body>
+
+</html>
